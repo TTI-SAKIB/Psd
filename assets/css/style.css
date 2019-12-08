@@ -186,10 +186,10 @@
 
 @media only screen and (max-width:320px){
     .hero-section 
-    ..hero-section .header .mobile-menu-icon(1){
+    ..hero-section .header .mobile-menu-icon{
         width: 20px;
     }
-    .top-header .logo-containe img:nth-child(2){
+    .top-header .logo-containe img:nth-child{
         width: 40px;
     }
     .top-header .social-icon ul li a{
