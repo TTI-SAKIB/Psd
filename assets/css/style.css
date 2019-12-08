@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* -------------------------------
+-------------HERO SECTION --------
+---------------------------------- */
+.hero-section{
+    padding: 55px 0px;
+    padding-bottom: 20px;
+    background: #fcdb00;
+}
+.hero-section .header{}
+.hero-section .header .mobile-menu-icon{}
+.hero-section .header .mobile-menu-icon i{}
+
+.hero-section .header .logo{}
+.hero-section .header .logo img{
+    display: block;
+    margin: auto;
+}
+
+.hero-section .header .social-media-icon{}
+.hero-section .header .social-media-icon ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.hero-section .header .social-media-icon ul li{
+    padding: 0px 10px;
+}
+.hero-section .header .social-media-icon ul li a{
+    
+}
+.hero-section .header .social-media-icon ul li a i{
+    font-size: 25px;
+    color: #000;
+}
+
+.hero-section .slide-content{
+    padding:0px 15%;
+}
+.hero-section .slide-content #carouselExampleIndicators{
+    padding: 220px 0px;
+}
+.hero-section .slide-content .carousel-indicators{}
+.hero-section .slide-content .carousel-indicators li{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+
+.hero-section .slide-content .single-slide-content{
+    text-align: center;
+}
+.hero-section .slide-content .single-slide-content h1{}
+.hero-section .slide-content .single-slide-content p{}
+.hero-section .slide-content .single-slide-content ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.hero-section .slide-content .single-slide-content ul li{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section .slide-content .single-slide-content ul li a{}
+.hero-section .slide-content .single-slide-content ul li a i{
+    font-size: 20px;
+    color: #000;
+}
+
+
+
+/* -------------------------------------------
+-------------- FEATURED SECTION -------------- 
+---------------------------------------------*/
+.featured-section
+{
+    padding: 120px 0px;
+}
+.featured-section .feature-heading
+{
+    text-align: center;
+    padding: 0px 15%;
+    padding-bottom: 70px;
+}
+.featured-section .feature-heading h2
+{
+    font-size: 40px;
+}
+.featured-section .feature-heading p{}
+
+
+.featured-section .featured-content{}
+.featured-section .featured-content img
+{
+    display: block;
+    margin: auto;
+}
+.featured-section .featured-content .single-featured-content
+{
+    padding: 30px 0px;
+}
+
+.featured-section .featured-content .single-featured-content h3
+{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.featured-section .featured-content .single-featured-content p{}
+
+
+
+/* -------------------------------------------
+-------------- FOOTER SECTION -------------- 
+---------------------------------------------*/
+
+.footer-section{
+    padding-top: 100px;
+    padding-bottom: 207px;
+    background: #000;
+}
+.footer-section .footer-heading{
+    text-align: center;
+    padding: 0px 15%;
+    padding-bottom:30px;
+}
+.footer-section .footer-heading h2{
+    color: #fcdb00;
+}
+.footer-section .footer-heading p{
+    color: #898989;
+}
+
+
+.footer-section .footer-input{
+    padding: 0px 15%;
+    padding-bottom: 109px;
+}
+.footer-section .footer-input input{
+    margin-right: 10px;
+    border-radius:4px !important;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+.footer-section .footer-input input::placeholder{
+    font-size: 13px;
+    position: relative;
+    top: -2px;
+}
+.footer-section .footer-input button{
+    padding: 0px 15px;
+    background: #fcdb00;
+    border: none;
+    border-radius:4px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.footer-section .footer-menu{}
+.footer-section .footer-menu p{
+    margin: 0px;
+    color: #fff;
+}
+.footer-section .footer-menu ul{
+    list-style: none;
+}
+.footer-section .footer-menu ul li{}
+.footer-section .footer-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
